@@ -1,0 +1,2 @@
+#!/bin/bash
+shopt -s nullglob && files=(*.html) && [ ${#files[@]} -eq 0 ] && echo "No .html files found." || for f in "${files[@]}"; do [ ! -e "../$f" ] || [ "$f" -nt "../$f" ] && cp "$f" .. && echo "Copied: $f" || echo "Skipped (up-to-date): $f"; done
