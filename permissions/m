@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello"
+git commit -m "Set the file hello so only others have full permissions; owner and group have none."
 git push
