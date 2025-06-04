@@ -1,2 +1,2 @@
 #!/bin/bash
-groups
+chmod +x create_my_dir.sh

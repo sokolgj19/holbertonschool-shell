@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Create a script that adds execte permission to all subdirectories of the current directory for the owner, the group owner and all other users."
+git commit -m "Create a script that creates a directory called my_dir with permissions 751 in the working directory."
 git push
