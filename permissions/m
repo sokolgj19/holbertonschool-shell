@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Write a script that sets the file mode of hello to match that of olleh, working for any permission mode."
+git commit -m "Create a script that adds execte permission to all subdirectories of the current directory for the owner, the group owner and all other users."
 git push
