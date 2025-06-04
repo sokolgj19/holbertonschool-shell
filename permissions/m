@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Script that set the file hello to different permissions."
+git commit -m "Write a script that sets the file mode of hello to match that of olleh, working for any permission mode."
 git push
