@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Set the file hello so only others have full permissions; owner and group have none."
+git commit -m "Script that set the file hello to different permissions."
 git push
