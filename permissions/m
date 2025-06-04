@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Write a script that adds execute permission to the owner of the file hello"
+git commit -m "Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello"
 git push
