@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Write e shell script with different and specific requests"
+git commit -m "Write a script with different tasks and requirements"
 git push
