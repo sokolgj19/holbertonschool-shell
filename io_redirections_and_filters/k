@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Write a script that displays the third line of the file iacta"
+git commit -m "Creates a file with a complex name (containing special characters) and writes "Best School""
 git push
